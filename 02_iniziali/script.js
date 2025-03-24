@@ -13,7 +13,6 @@ function iniziali(array) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+console.log(iniziali(names));
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
