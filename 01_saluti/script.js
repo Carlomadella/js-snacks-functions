@@ -2,9 +2,10 @@
 
 const userName = 'Mario';
 
-
 // Dichiara la funzione qui.
-
+function saluto(name) {
+    return hello = "Ciao" + " " + [name];
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
