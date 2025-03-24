@@ -8,7 +8,19 @@ e buonasera se è sera (oltre le 17)
 const name = 'Mario';
 
 // Dichiara la funzione qui.
-
+function salutoMeteo(name) {
+    const date = new Date("");
+    let hour = date.getHours();
+    if (hour < 13) {
+        console.log("Buongiorno" + " " + [name]);
+    }
+    else if(13 < hour < 17) {
+        console.log("Buon pomeriggio" + " " + [name]);
+    }
+    else{
+        console.log("Buonasera" + " " + [name]);
+    }
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
