@@ -3,7 +3,17 @@
 const word = 'javascript';
 
 // Dichiara la funzione qui.
-
+function vocalsNum(string) {
+    let count = 0;
+    const newArray = [];
+    for (let i = 0; i < string.length; i++) {
+        if (string [i] === "a" || string [i] === "e" || string [i] === "i" || string [i] === "o" || string [i] === "u") {
+            count++;
+            newArray.push(string[i])
+        } 
+    }
+    return newArray;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
