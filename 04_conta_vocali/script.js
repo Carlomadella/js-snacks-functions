@@ -16,7 +16,7 @@ function vocalsNum(string) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+console.log(vocalsNum(word));
 
 
 //Risultato atteso se si passa 'javascript': 3 (a, a, i)
