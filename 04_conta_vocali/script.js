@@ -2,7 +2,6 @@
 
 const word = 'javascript';
 
-
 // Dichiara la funzione qui.
 
 
