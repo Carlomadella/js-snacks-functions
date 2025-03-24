@@ -8,7 +8,7 @@ function saluto(name) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
-
+saluto(userName);
+console.log(hello);
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
