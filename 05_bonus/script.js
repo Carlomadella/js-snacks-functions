@@ -23,7 +23,7 @@ function salutoMeteo(name) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
-
+salutoMeteo(name)
 
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
